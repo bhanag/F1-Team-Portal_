@@ -267,7 +267,7 @@ async function fetchDriverData(teamId) {
                 name: `${driver.givenName} ${driver.familyName}`,
                 number: driver.permanentNumber || '0',
                 nationality: driver.nationality,
-                image: `/images/drivers/${driver.driverId}.jpg`,
+                image: `/images/drivers/${driver.driverId}.svg`,
                 points: 0,
                 races: 0,
                 wins: 0
